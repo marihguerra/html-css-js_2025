@@ -22,7 +22,7 @@ while (chute != numeroSecreto){
 }
 
 let palavraTentativa = tentativas == 1 ? 'tentativa' : 'tentativas';
-alert(`Isso aí! Você adivinhou o número secreto (${numeroSecreto}) em ${tentativas} ${palavraTentativa}!`);
+alert(`Isso aí! Você adivinhou o número secreto (${numeroSecreto}) em ${tentativas} ${palavraTentativa} :)`);
 
 
 //inicial 
