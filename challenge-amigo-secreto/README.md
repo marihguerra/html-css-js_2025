@@ -2,6 +2,10 @@
   <img src="challenge-amigo-secreto\assets\logo-challenge.png" width="400"/>
 </div>
 
+<div align="right" font-size= 5px >
+  imagens da logo projetadas por <a href="https://br.freepik.com/">Freepik</a>
+</div>
+
 ___
 # :wrench: Funcionalidades do projeto
 
