@@ -20,7 +20,7 @@ body{
 }
 
 .cabecalho {
-    padding: 2% 15% 0% 19%;
+    padding: 2% 15% 0% 18%;
 }
 
 .cabecalho__menu {
@@ -43,7 +43,7 @@ body{
 }
 
 .apresentacao{
-    margin: 7% 19%;
+    margin: 7% 18%;
     display: flex;
     align-items: flex-start;
     justify-content:space-between;
@@ -69,6 +69,7 @@ body{
 
 .apresentacao__conteudo__subtitulo{
     letter-spacing: 0.06rem;
+    text-align: center;
     font: 1rem "Krona One", sans-serif;
 }
 
@@ -120,5 +121,25 @@ body{
 
 .rodape__texto {
     font: 1rem "Montserrat", sans-serif;
-    color: var(--fundo)
+    color: var(--fundo);
+}
+
+@media (max-width: 900px) {
+    .cabecalho {
+        padding: 10% 20%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        margin: 7% 12%;
+        gap: 50px;
+    }
+    .apresentacao__conteudo, .apresentacao__imagem {
+        width: 100%;
+    }
+    .rodape{
+        margin-top: 15px;
+    }
 }
