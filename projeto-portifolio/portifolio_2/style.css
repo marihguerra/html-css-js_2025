@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --fundo: #000000;
+    --texto: #f0ffff;
+    --destaque: #22d4fd;
+    --hover: #222224;
+}
+
+*{
+    color: var(--texto);
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--fundo);
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.cabecalho {
+    padding: 2% 15% 0% 19%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho__menu__link {
+    color: var(--destaque);
+    font: 600 16px "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--texto);
+}
+
+.titulo-destaque{
+    color: var(--destaque);
+}
+
+.apresentacao{
+    margin: 7% 19%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 450px;
+}
+
+.apresentacao__conteudo__titulo{
+    letter-spacing: 1px;
+    font: 26px "Krona One", sans-serif;
+    line-height: 40px;
+}
+
+.apresentacao__conteudo__texto{
+    font: 16px "Montserrat", sans-serif;
+    line-height: 28px;
+}
+
+.apresentacao__conteudo__subtitulo{
+    letter-spacing: 1px;
+    font: 16px "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__links__link{
+    background-color: var(--fundo);
+    color: var(--texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 270px;
+    border: 2px solid var(--destaque);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font: 600 16px "Montserrat", sans-serif;
+}
+
+.apresentacao__conteudo__links__link:hover {
+    background-color: var(--hover);
+}
+
+.apresentacao__conteudo__links__link:active {
+    background-color: var(--destaque);
+}
+
+.apresentacao__conteudo__links__link img{
+    width: 25px;
+}
+
+.apresentacao__imagem {
+    width: 40%;
+}
+
+.rodape {
+    background-color: var(--destaque);
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape__texto {
+    font: 16px "Montserrat", sans-serif;
+    color: var(--fundo)
+}
