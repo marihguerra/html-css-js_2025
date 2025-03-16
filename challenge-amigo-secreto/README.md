@@ -3,16 +3,16 @@
 </div>
 
 <p align="right" style="font-size: 5px;">
-  imagens da logo projetadas por <a href="https://br.freepik.com/">Freepik</a>
+  imagem da logo projetadas por <a href="https://br.freepik.com/">Freepik</a>
 </p>
 
 ___
 # :wrench: Funcionalidades do projeto
 
-1. `Adicionar amigos`:  Recebe o nome de seus amigos via input e adiciona cada um a uma lista - a qual é exibida na tela para melhor visualização;
-2. ` Correções `:  Te auxilia a listar seus amigos de forma organizada ao alertar erros de digitação de nomes vazios ou repetidos;
+1. `Adicionar amigos`:  Recebe o nome dos seus amigos via input e adiciona cada um a uma lista, exibida na tela para melhor visualização;
+2. ` Correções `:  Te ajuda a listar seus amigos de forma organizada ao alertar erros de digitação de nomes vazios ou repetidos;
 3. `Sortear um dos amigos`:  Ao apertar o botão de "Sortear amigo", o programa escolhe aleatoriamente um nome da lista e exibe-o na tela para ser o amigo secreto da vez;
-4. `Repetição do sorteio à vontade`:  Você pode sortear nomes da lista quantas vezes quiser e obterá amigos secretos para cada um de seus amigos, envolvendo todos na diversão!
+4. `Repetição do sorteio à vontade`:  Você pode sortear nomes da lista quantas vezes quiser e obter amigos secretos para cada um de seus amigos, envolvendo todos na brincadeira!
 
 <br>
 
